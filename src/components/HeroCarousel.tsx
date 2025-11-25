@@ -115,7 +115,9 @@ export function HeroCarousel() {
         className="absolute top-24 md:top-28 lg:top-32 left-1/2 -translate-x-1/2 z-30 text-center w-full px-4"
       >
         <p className="text-sm md:text-base font-light text-teal-700/80 tracking-widest">
-          我們致力於研究...
+          
+
+          
         </p>
       </motion.div>
 

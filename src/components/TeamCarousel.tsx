@@ -84,6 +84,7 @@ const teamMembers: TeamMember[] = [
     title: '碩一生',
     role: '碩一生',
     image: 'src/public/img/114/114ab8048_林承玄.jpg',
+    email: 't114ab8048@ntut.org.tw',
     expertise: ['程式設計'],
     description:
       '我畢業於聯合大學資管系。我對人工智慧、資料分析以及人機互動相關的應用很有興趣，特別喜歡嘗試新技術與應用。課餘時間喜歡打遊戲、看小說。',
