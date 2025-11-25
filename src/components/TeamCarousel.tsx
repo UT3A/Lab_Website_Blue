@@ -22,7 +22,8 @@ const professor: TeamMember = {
   nameEn: 'Prof. Cheng',
   title: '實驗室主持人',
   role: 'Principal Investigator',
-  image: 'src/public/img/teacher.jpg',
+  // 修改路徑：拿掉 src/public，加上斜線 /
+  image: '/img/teacher.jpg',
   email: 'jessicacheng@ntut.edu.tw',
   expertise: ['機器學習與數據分析', '數位金融', '智慧行銷', '社群運算', '企業智慧'],
   description: '專注於人工智慧技術應用於財務或是行銷與管理領域,成立目的訓練學生成為資料科學家。',
@@ -36,7 +37,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'wu',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114AB8003_吳姿穎.jpg',
+    image: '/img/114/114AB8003_吳姿穎.jpg', // 修改路徑
     email: 't114ab8003@ntut.org.tw',
     expertise: ['資料庫', '財務分析'],
     description:
@@ -48,7 +49,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Lin',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114AB8041_林千惠.jpg',
+    image: '/img/114/114AB8041_林千惠.jpg', // 修改路徑
     email: 't114ab8041@ntut.org.tw',
     expertise: ['前端(Vue.js)', '後端(Spring Boot)'],
     description:
@@ -60,7 +61,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'LEE',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114AB8042_李泓泯.png',
+    image: '/img/114/114AB8042_李泓泯.png', // 修改路徑
     email: 't114ab8042@ntut.org.tw',
     expertise: [
       'Python',
@@ -83,7 +84,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Lin',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114ab8048_林承玄.jpg',
+    image: '/img/114/114ab8048_林承玄.jpg', // 修改路徑
     email: 't114ab8048@ntut.org.tw',
     expertise: ['程式設計'],
     description:
@@ -95,7 +96,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'yeh',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114AB8050_葉千熏.jpg',
+    image: '/img/114/114AB8050_葉千熏.jpg', // 修改路徑
     email: 't114ab8050@ntut.org.tw',
     expertise: ['前端設計', '前端工程'],
     description:
@@ -107,7 +108,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Uta',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114EP8002_呂芯穎.jpg',
+    image: '/img/114/114EP8002_呂芯穎.jpg', // 修改路徑
     email: 't114EP8002@ntut.org.tw',
     expertise: ['前端設計', 'Python', '系統分析'],
     description:
@@ -119,7 +120,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Lai',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114EP8012_賴泓瑋.jpg',
+    image: '/img/114/114EP8012_賴泓瑋.jpg', // 修改路徑
     email: 't114EP8012@ntut.org.tw',
     expertise: ['Python', 'Flask框架應用', 'XGBoost', 'Adaboost', '資料結構'],
     description:
@@ -131,7 +132,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'cheng',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114EP8023_鄭淮源.jpg',
+    image: '/img/114/114EP8023_鄭淮源.jpg', // 修改路徑
     email: 't114EP8023@ntut.org.tw',
     expertise: ['C++程式設計', '資料結構', '英文'],
     description:
@@ -143,7 +144,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'huang',
     title: '碩一生',
     role: '碩一生',
-    image: 'src/public/img/114/114EP8024_黃聖瑋.jpg',
+    image: '/img/114/114EP8024_黃聖瑋.jpg', // 修改路徑
     email: 't114ep8024@ntut.org.tw',
     expertise: ['C++', 'Java', 'Android'],
     description:
@@ -155,7 +156,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Uta',
     title: '碩二生',
     role: '碩二生',
-    image: 'src/public/img/113/大石鍊.jpg',
+    image: '/img/113/大石鍊.jpg', // 修改路徑
     email: 't113ab8018@ntut.org.tw',
     expertise: ['資料庫', 'RPA'],
     description:
@@ -167,7 +168,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Uta',
     title: '碩二生',
     role: '碩二生',
-    image: 'src/public/img/113/113AB8005陽彩柔.jpg',
+    image: '/img/113/113AB8005陽彩柔.jpg', // 修改路徑
     email: 't113ab8005@ntut.org.tw',
     expertise: ['資料處理', 'C/C++'],
     description:
@@ -179,7 +180,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Wu',
     title: '碩二生',
     role: '碩二生',
-    image: 'src/public/img/113/113AB8007吳育碩.jpg',
+    image: '/img/113/113AB8007吳育碩.jpg', // 修改路徑
     email: 't113ab8007@ntut.org.tw',
     expertise: ['前後端'],
     description:
@@ -191,7 +192,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Wu',
     title: '碩二生',
     role: '碩二生',
-    image: 'src/public/img/113/113AB8015.jpg',
+    image: '/img/113/113AB8015.jpg', // 修改路徑
     email: 't113ab8015@ntut.org.tw',
     expertise: ['資料庫'],
     description:
@@ -203,7 +204,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Wu',
     title: '碩二生',
     role: '碩二生',
-    image: 'src/public/img/113/113AB8046.jpg',
+    image: '/img/113/113AB8046.jpg', // 修改路徑
     email: 't113ab8046@ntut.org.tw',
     expertise: ['python', 'SQL'],
     description:
@@ -215,7 +216,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Wu',
     title: '碩二生',
     role: '碩二生',
-    image: 'src/public/img/113/許怡芳.jpg',
+    image: '/img/113/許怡芳.jpg', // 修改路徑
     email: 't113ab8050@ntut.org.tw',
     expertise: ['前端開發', '網頁設計', '數據分析'],
     description:
@@ -227,7 +228,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Wu',
     title: '碩二生',
     role: '碩二生',
-    image: 'src/public/img/113/t113AB8049.jpg',
+    image: '/img/113/t113AB8049.jpg', // 修改路徑
     email: 't113AB8049@ntut.org.tw',
     expertise: ['爬蟲', 'DL', 'LLM'],
     description:
@@ -355,7 +356,7 @@ const MemberDetailModal: React.FC<MemberDetailModalProps> = ({ member, onClose }
 // ────────────── Carousel ──────────────
 export function TeamCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [visibleCards, setVisibleCards] = useState(3); // 同時顯示的卡片數量
+  const [visibleCards, setVisibleCards] = useState(3);
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
 
   const nextSlide = useCallback(() => {
@@ -366,13 +367,12 @@ export function TeamCarousel() {
     setCurrentIndex((prev) => (prev - 1 + teamMembers.length) % teamMembers.length);
   }, []);
 
-  // 自動輪播
   useEffect(() => {
+    if (selectedMember) return; // 開啟 Modal 時暫停輪播
     const interval = setInterval(nextSlide, 4000);
     return () => clearInterval(interval);
-  }, [nextSlide]);
+  }, [nextSlide, selectedMember]);
 
-  // 響應式調整可見卡片數量
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
@@ -389,7 +389,6 @@ export function TeamCarousel() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // 取得可見成員
   const getVisibleMembers = () => {
     const members: TeamMember[] = [];
     for (let i = 0; i < visibleCards; i++) {
@@ -430,7 +429,6 @@ export function TeamCarousel() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Left: Text Content */}
           <div className="space-y-8 lg:sticky lg:top-32">
-            {/* Section Label */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -448,7 +446,6 @@ export function TeamCarousel() {
               </div>
             </motion.div>
 
-            {/* Title */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -485,7 +482,6 @@ export function TeamCarousel() {
               </p>
             </motion.div>
 
-            {/* Stats */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -522,7 +518,6 @@ export function TeamCarousel() {
               ))}
             </motion.div>
 
-            {/* Navigation Controls */}
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -591,284 +586,270 @@ export function TeamCarousel() {
           {/* Right: Team Cards */}
           <div className="relative">
             {/* Professor Card */}
-<motion.div
-  initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.6 }}
-  className="mb-8"
->
-  {/* Main Info Link */}
-  <a
-    href="https://ljcheng.tw/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="block cursor-pointer hover:opacity-90 transition-opacity"
-  >
-    <div
-      className="relative rounded-2xl overflow-hidden"
-      style={{
-        background:
-          'linear-gradient(135deg, rgba(0, 120, 111, 0.1),rgba(240, 253, 250, 0.5), rgba(0, 150, 137, 0.2))',
-        border: '1px solid rgba(14, 165, 233, 0.2)',
-        backdropFilter: 'blur(20px)',
-      }}
-    >
-      <div className="p-8 flex flex-col md:flex-row gap-6 items-center">
-        {/* Professor Image */}
-        <motion.div
-          className="relative"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.3 }}
-        >
-          <div
-            className="w-32 h-32 rounded-2xl overflow-hidden"
-            style={{
-              border: '3px solid rgba(0, 150, 137, 0.5)',
-              boxShadow: '0 0 30px rgba(0, 120, 111, 0.3)',
-            }}
-          >
-            <ImageWithFallback
-              src={professor.image}
-              alt={professor.name}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div
-            className="absolute inset-0 rounded-2xl"
-            style={{
-              background:
-                'radial-gradient(circle, rgba(0, 150, 137, 0.2), transparent)',
-              filter: 'blur(20px)',
-              zIndex: -1,
-            }}
-          />
-        </motion.div>
-
-        {/* Professor Info */}
-        <div className="flex-1 space-y-3 text-center md:text-left">
-          <div>
-            <h3
-              style={{
-                fontSize: '28px',
-                fontWeight: 700,
-                color: '#000000ff',
-                marginBottom: '4px',
-              }}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="mb-8"
             >
-              {professor.name}
-            </h3>
-            <p
-              style={{
-                fontSize: '14px',
-                color: 'rgba(0, 120, 111, 0.8)',
-                letterSpacing: '0.05em',
-                fontWeight: 500,
-              }}
-            >
-              {professor.role}
-            </p>
-          </div>
-
-          <p
-            style={{
-              fontSize: '13px',
-              color: 'rgba(0, 0, 0, 0.6)',
-              lineHeight: 1.7,
-              fontWeight: 600,
-            }}
-          >
-            {professor.description}
-          </p>
-
-          <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-            {professor.expertise.map((skill, index) => (
-              <span
-                key={index}
-                className="px-3 py-1 rounded-full text-xs"
-                style={{
-                  background: 'rgba(255, 255, 255, 1)',
-                  color: 'rgba(0, 120, 112, 1)',
-                  border: '1px solid rgba(0, 187, 167, 0.3)',
-                }}
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-
-          {professor.email && (
-            <div className="flex items-center gap-3 justify-center md:justify-start pt-2">
               <a
-                href={`mailto:${professor.email}`}
-                className="flex items-center gap-2 text-cyan-600 hover:text-cyan-700 transition-colors"
-                style={{ fontSize: '12px' }}
-                onClick={(e) => e.stopPropagation()} // 避免點信箱也一起觸發外層連結
+                href="https://ljcheng.tw/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block cursor-pointer hover:opacity-90 transition-opacity"
               >
-                <Mail className="w-4 h-4" />
-                聯絡信箱
-              </a>
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  </a>
-</motion.div>
+                <div
+                  className="relative rounded-2xl overflow-hidden"
+                  style={{
+                    background:
+                      'linear-gradient(135deg, rgba(0, 120, 111, 0.1),rgba(240, 253, 250, 0.5), rgba(0, 150, 137, 0.2))',
+                    border: '1px solid rgba(14, 165, 233, 0.2)',
+                    backdropFilter: 'blur(20px)',
+                  }}
+                >
+                  <div className="p-8 flex flex-col md:flex-row gap-6 items-center">
+                    <motion.div
+                      className="relative"
+                      whileHover={{ scale: 1.05 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <div
+                        className="w-32 h-32 rounded-2xl overflow-hidden"
+                        style={{
+                          border: '3px solid rgba(0, 150, 137, 0.5)',
+                          boxShadow: '0 0 30px rgba(0, 120, 111, 0.3)',
+                        }}
+                      >
+                        <ImageWithFallback
+                          src={professor.image}
+                          alt={professor.name}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div
+                        className="absolute inset-0 rounded-2xl"
+                        style={{
+                          background:
+                            'radial-gradient(circle, rgba(0, 150, 137, 0.2), transparent)',
+                          filter: 'blur(20px)',
+                          zIndex: -1,
+                        }}
+                      />
+                    </motion.div>
 
+                    <div className="flex-1 space-y-3 text-center md:text-left">
+                      <div>
+                        <h3
+                          style={{
+                            fontSize: '28px',
+                            fontWeight: 700,
+                            color: '#000000ff',
+                            marginBottom: '4px',
+                          }}
+                        >
+                          {professor.name}
+                        </h3>
+                        <p
+                          style={{
+                            fontSize: '14px',
+                            color: 'rgba(0, 120, 111, 0.8)',
+                            letterSpacing: '0.05em',
+                            fontWeight: 500,
+                          }}
+                        >
+                          {professor.role}
+                        </p>
+                      </div>
+
+                      <p
+                        style={{
+                          fontSize: '13px',
+                          color: 'rgba(0, 0, 0, 0.6)',
+                          lineHeight: 1.7,
+                          fontWeight: 600,
+                        }}
+                      >
+                        {professor.description}
+                      </p>
+
+                      <div className="flex flex-wrap gap-2 justify-center md:justify-start">
+                        {professor.expertise.map((skill, index) => (
+                          <span
+                            key={index}
+                            className="px-3 py-1 rounded-full text-xs"
+                            style={{
+                              background: 'rgba(255, 255, 255, 1)',
+                              color: 'rgba(0, 120, 112, 1)',
+                              border: '1px solid rgba(0, 187, 167, 0.3)',
+                            }}
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+
+                      {professor.email && (
+                        <div className="flex items-center gap-3 justify-center md:justify-start pt-2">
+                          <a
+                            href={`mailto:${professor.email}`}
+                            className="flex items-center gap-2 text-cyan-600 hover:text-cyan-700 transition-colors"
+                            style={{ fontSize: '12px' }}
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            <Mail className="w-4 h-4" />
+                            聯絡信箱
+                          </a>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </motion.div>
 
             {/* Team Members Cards - Sliding */}
-<div className="relative h-[400px] md:h-[450px]">
-  <AnimatePresence mode="popLayout">
-    {getVisibleMembers().map((member, index) => {
-      const canShowDetail =
-        member.description && member.description.length > 15;
+            <div className="relative h-[400px] md:h-[450px]">
+              <AnimatePresence mode="popLayout">
+                {getVisibleMembers().map((member, index) => {
+                  const canShowDetail =
+                    member.description && member.description.length > 15;
+                  const visibleExpertise = member.expertise.slice(0, 2);
 
-      // 卡片上最多只顯示 2 個 tag
-      const visibleExpertise = member.expertise.slice(0, 2);
+                  return (
+                    <motion.div
+                      key={member.id}
+                      className={`absolute ${canShowDetail ? 'cursor-pointer' : ''}`}
+                      onClick={() => canShowDetail && handleCardClick(member)}
+                      style={{
+                        left: `${index * (100 / visibleCards)}%`,
+                        width: `${95 / visibleCards}%`,
+                        zIndex: visibleCards - index,
+                      }}
+                      initial={{ opacity: 0, x: 100, scale: 0.9 }}
+                      animate={{
+                        opacity: 1,
+                        x: 0,
+                        scale: 1,
+                        transition: {
+                          duration: 0.5,
+                          delay: index * 0.1,
+                        },
+                      }}
+                      exit={{ opacity: 0, x: -100, scale: 0.9 }}
+                      whileHover={{
+                        scale: 1.05,
+                        zIndex: 999,
+                        transition: { duration: 0.3 },
+                      }}
+                    >
+                      <div
+                        className="rounded-xl overflow-hidden h-full flex flex-col"
+                        style={{
+                          background: 'rgba(0, 213, 192, 0.1)',
+                          border: '1px solid rgba(0, 120, 111, 0.1)',
+                          backdropFilter: 'blur(10px)',
+                        }}
+                      >
+                        <div className="relative h-56 overflow-hidden shrink-0">
+                          <ImageWithFallback
+                            src={member.image}
+                            alt={member.name}
+                            className="w-full h-full object-cover"
+                          />
+                          <div
+                            className="absolute inset-0"
+                            style={{
+                              background:
+                                'linear-gradient(180deg, transparent 0%, rgba(2, 6, 23, 0.9) 100%)',
+                            }}
+                          />
+                        </div>
 
-      return (
-        <motion.div
-          key={member.id}
-          className={`absolute ${canShowDetail ? 'cursor-pointer' : ''}`}
-          onClick={() => canShowDetail && handleCardClick(member)}
-          style={{
-            left: `${index * (100 / visibleCards)}%`,
-            width: `${95 / visibleCards}%`,
-            zIndex: visibleCards - index,
-          }}
-          initial={{ opacity: 0, x: 100, scale: 0.9 }}
-          animate={{
-            opacity: 1,
-            x: 0,
-            scale: 1,
-            transition: {
-              duration: 0.5,
-              delay: index * 0.1,
-            },
-          }}
-          exit={{ opacity: 0, x: -100, scale: 0.9 }}
-          whileHover={{
-            scale: 1.05,
-            zIndex: 999,
-            transition: { duration: 0.3 },
-          }}
-        >
-          <div
-            className="rounded-xl overflow-hidden h-full flex flex-col"
-            style={{
-              background: 'rgba(0, 213, 192, 0.1)',
-              border: '1px solid rgba(0, 120, 111, 0.1)',
-              backdropFilter: 'blur(10px)',
-            }}
-          >
-            {/* Member Image */}
-            <div className="relative h-56 overflow-hidden shrink-0">
-              <ImageWithFallback
-                src={member.image}
-                alt={member.name}
-                className="w-full h-full object-cover"
-              />
-              <div
-                className="absolute inset-0"
-                style={{
-                  background:
-                    'linear-gradient(180deg, transparent 0%, rgba(2, 6, 23, 0.9) 100%)',
-                }}
-              />
+                        <div className="p-6 space-y-3 flex-1 flex flex-col">
+                          <div>
+                            <h4
+                              style={{
+                                fontSize: '20px',
+                                fontWeight: 600,
+                                color: '#000000ff',
+                              }}
+                            >
+                              {member.name}
+                            </h4>
+                            <p
+                              style={{
+                                fontSize: '12px',
+                                color: 'rgba(0, 120, 111, 0.8)',
+                                letterSpacing: '0.05em',
+                              }}
+                            >
+                              {member.role}
+                            </p>
+                          </div>
+
+                          <div className="flex flex-wrap gap-2 items-center">
+                            {visibleExpertise.map((skill, skillIndex) => (
+                              <span
+                                key={skillIndex}
+                                className="px-2 py-1 rounded-full text-xs"
+                                style={{
+                                  background: 'rgba(255, 255, 255, 1)',
+                                  color: 'rgba(0, 120, 112, 1)',
+                                  border: '1px solid rgba(0, 187, 167, 0.3)',
+                                  fontSize: '10px',
+                                }}
+                              >
+                                {skill}
+                              </span>
+                            ))}
+                          </div>
+
+                          <p
+                            style={{
+                              fontSize: '12px',
+                              color: 'rgba(0, 0, 0, 1)',
+                              lineHeight: 1.6,
+                              overflow: 'hidden',
+                              display: '-webkit-box',
+                              WebkitLineClamp: 2,
+                              WebkitBoxOrient: 'vertical',
+                            }}
+                            title={member.description}
+                          >
+                            {member.description}
+                          </p>
+
+                          {canShowDetail && (
+                            <p className="text-cyan-700 text-xs mt-1">
+                              ...點擊查看詳情
+                            </p>
+                          )}
+
+                          {member.email && (
+                            <a
+                              href={`mailto:${member.email}`}
+                              onClick={(e) => e.stopPropagation()}
+                              className="inline-flex items-center gap-2 text-cyan-700 hover:text-cyan-700 transition-colors pt-2 mt-auto"
+                              style={{ fontSize: '11px' }}
+                            >
+                              <Mail className="w-3 h-3" />
+                              聯絡
+                            </a>
+                          )}
+                        </div>
+                      </div>
+                    </motion.div>
+                  );
+                })}
+              </AnimatePresence>
             </div>
-
-            {/* Member Info */}
-            <div className="p-6 space-y-3 flex-1 flex flex-col">
-              <div>
-                <h4
-                  style={{
-                    fontSize: '20px',
-                    fontWeight: 600,
-                    color: '#000000ff',
-                  }}
-                >
-                  {member.name}
-                </h4>
-                <p
-                  style={{
-                    fontSize: '12px',
-                    color: 'rgba(0, 120, 111, 0.8)',
-                    letterSpacing: '0.05em',
-                  }}
-                >
-                  {member.role}
-                </p>
-              </div>
-
-              {/* 專長 Tags（卡片上只顯示前 2 個） */}
-              <div className="flex flex-wrap gap-2 items-center">
-                {visibleExpertise.map((skill, skillIndex) => (
-                  <span
-                    key={skillIndex}
-                    className="px-2 py-1 rounded-full text-xs"
-                    style={{
-                      background: 'rgba(255, 255, 255, 1)',
-                      color: 'rgba(0, 120, 112, 1)',
-                      border: '1px solid rgba(0, 187, 167, 0.3)',
-                      fontSize: '10px',
-                    }}
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-
-              {/* 簡短自我介紹（兩行截斷） */}
-              <p
-                style={{
-                  fontSize: '12px',
-                  color: 'rgba(0, 0, 0, 1)',
-                  lineHeight: 1.6,
-                  overflow: 'hidden',
-                  display: '-webkit-box',
-                  WebkitLineClamp: 2,
-                  WebkitBoxOrient: 'vertical',
-                }}
-                title={member.description}
-              >
-                {member.description}
-              </p>
-
-              {canShowDetail && (
-                <p className="text-cyan-700 text-xs mt-1">
-                  ...點擊查看詳情
-                </p>
-              )}
-
-              {/* Contact Icon 放最下面 */}
-              {member.email && (
-                <a
-                  href={`mailto:${member.email}`}
-                  onClick={(e) => e.stopPropagation()}
-                  className="inline-flex items-center gap-2 text-cyan-700 hover:text-cyan-700 transition-colors pt-2 mt-auto"
-                  style={{ fontSize: '11px' }}
-                >
-                  <Mail className="w-3 h-3" />
-                  聯絡
-                </a>
-              )}
-            </div>
-          </div>
-        </motion.div>
-      );
-    })}
-  </AnimatePresence>
-</div>
-
           </div>
         </div>
       </div>
 
-      {/* Bottom Decorative Line */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent" />
 
-      {/* 詳細資料模態框 */}
       <AnimatePresence>
         {selectedMember && (
           <MemberDetailModal member={selectedMember} onClose={closeModal} />
