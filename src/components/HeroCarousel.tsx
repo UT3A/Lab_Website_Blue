@@ -106,7 +106,7 @@ export function HeroCarousel() {
   };
 
   return (
-    <section className="relative h-[85vh] min-h-[600px] bg-gradient-to-br from-teal-50 via-cyan-50 to-white overflow-hidden">
+    <section className="relative mt-16 lg:mt-24 h-[85vh] min-h-[600px] bg-gradient-to-br from-teal-50 via-cyan-50 to-white overflow-hidden">
       {/* Top Title */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -115,9 +115,6 @@ export function HeroCarousel() {
         className="absolute top-24 md:top-28 lg:top-32 left-1/2 -translate-x-1/2 z-30 text-center w-full px-4"
       >
         <p className="text-sm md:text-base font-light text-teal-700/80 tracking-widest">
-          
-
-          
         </p>
       </motion.div>
 

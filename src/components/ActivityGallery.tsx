@@ -17,30 +17,29 @@ interface Activity {
 const activities: Activity[] = [
   {
     id: 1,
-    title: '實驗室聚餐',
+    title: '期末聚餐',
     participants: 189,
     rating: 4.8,
-    duration: '3小時',
-    image: 'https://images.unsplash.com/photo-1568292582257-708f52ae1780?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwYWN0aXZpdHklMjBvdXRkb29yfGVufDF8fHx8MTc2MDg3ODAwOHww&ixlib=rb-4.1.0&q=80&w=1080',
-    description: '想要為大自然盡一份心力',
+    duration: '2023/1/17',
+    image: '/img/活動照片/act1.png',
+    description: ' ',
   },
   {
     id: 2,
-    title: '橋起做拉麵',
+    title: '象山遊',
     participants: 27,
     rating: 5.0,
-    duration: '2小時',
-    image: 'https://images.unsplash.com/photo-1649252504304-3d564a12dc52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3Jrc2hvcCUyMGNvbGxhYm9yYXRpb258ZW58MXx8fHwxNzYwODc4MDA4fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    description: '與孩子們一起做拉麵是一件相當有趣的事',
+    duration: '2022/12/22',
+    image: '/img/活動照片/act2.png',
+    description: ' ',
   },
   {
     id: 3,
-    title: '油漆共遊教學',
+    title: '慶生趴',
     participants: 62,
-    rating: 4.9,
-    duration: '2小時',
-    image: 'https://images.unsplash.com/photo-1568983268695-74a04650c8b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25mZXJlbmNlJTIwc2VtaW5hcnxlbnwxfHx8fDE3NjA4NzgwMDl8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    description: '我們邀請到了專業的油漆工人，來教我們的油漆共',
+    duration: '2022/10/14',
+    image: '/img/活動照片/act3.png',
+    description: ' ',
   },
   {
     id: 4,
@@ -49,7 +48,7 @@ const activities: Activity[] = [
     rating: 4.7,
     duration: '3小時',
     image: 'https://images.unsplash.com/photo-1758270705290-62b6294dd044?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncm91cCUyMHN0dWR5JTIwbGVhcm5pbmd8ZW58MXx8fHwxNzYwODc4MDA5fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    description: '在家時，總自己檢測一些疾病嗎，不用怕！我們來',
+    description: ' ',
   },
 ];
 
@@ -101,11 +100,11 @@ export function ActivityGallery() {
               style={{
                 fontSize: 'clamp(16px, 2vw, 20px)',
                 fontWeight: 300,
-                color: 'rgba(255, 255, 255, 0.7)',
+                color: 'rgba(0, 0, 0, 1)',
                 letterSpacing: '0.15em',
               }}
             >
-              體驗活動
+              
             </h2>
           </div>
 
@@ -193,23 +192,17 @@ export function ActivityGallery() {
                       >
                         <Users className="w-3 h-3 text-purple-400" />
                       </div>
-                      <span style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '11px' }}>
+                      <span style={{ color: 'rgba(0, 0, 0, 0.6)', fontSize: '11px' }}>
                         {activity.participants}已參加
                       </span>
                     </div>
 
-                    {/* Rating */}
-                    <div className="flex items-center gap-1">
-                      <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                      <span style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: '11px' }}>
-                        {activity.rating}
-                      </span>
-                    </div>
+                    
 
                     {/* Duration */}
                     <div className="flex items-center gap-1">
                       <Clock className="w-3 h-3 text-cyan-400" />
-                      <span style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '11px' }}>
+                      <span style={{ color: 'rgba(0, 0, 0, 0.6)', fontSize: '11px' }}>
                         {activity.duration}
                       </span>
                     </div>
@@ -217,11 +210,11 @@ export function ActivityGallery() {
 
                   {/* Title */}
                   <h4
-                    className="text-white"
                     style={{
                       fontSize: '17px',
-                      fontWeight: 500,
+                      fontWeight: 800,
                       lineHeight: 1.4,
+                      color: 'rgba(0, 0, 0, 0.6)',
                     }}
                   >
                     {activity.title}

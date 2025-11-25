@@ -35,7 +35,7 @@ export function Navigation() {
             : 'bg-white/50 backdrop-blur-sm'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-semibold">
           <div className="flex items-center justify-between h-20">
             <motion.a
               href="#home"
@@ -48,7 +48,7 @@ export function Navigation() {
                 <span className="text-base lg:text-lg font-semibold bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">F</span>
               </div>
               <div className="flex flex-col">
-                <span className="text-sm lg:text-base text-slate-800 tracking-tight font-medium whitespace-nowrap">FAIM Lab</span>
+                <span className="text-sm font-semibold lg:text-base text-slate-800 tracking-tight font-medium whitespace-nowrap">FAIM Lab</span>
                 <span className="text-xs text-slate-500 tracking-wider whitespace-nowrap">
                   金融科技與智慧行銷實驗室
                 </span>
@@ -63,7 +63,7 @@ export function Navigation() {
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 * index }}
-                  className="px-3 xl:px-4 py-2 text-sm text-slate-600 hover:text-teal-600 transition-all duration-300 relative group whitespace-nowrap"
+                  className="px-3 xl:px-4 py-2 text-sm font-semibold text-slate-600 hover:text-teal-600 transition-all duration-300 relative group whitespace-nowrap"
                 >
                   {item.name}
                   <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-0 h-[2px] bg-gradient-to-r from-teal-500 to-cyan-500 transition-all duration-300 group-hover:w-3/4 rounded-full" />
