@@ -156,7 +156,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Uta',
     title: '碩二生',
     role: '碩二生',
-    image: '/img/113/大石鍊.jpg', // 修改路徑
+    image: '/img/113/大石鍊.JPG', // 修改路徑
     email: 't113ab8018@ntut.org.tw',
     expertise: ['資料庫', 'RPA'],
     description:
@@ -168,7 +168,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Uta',
     title: '碩二生',
     role: '碩二生',
-    image: '/img/113/113AB8005陽彩柔.jpg', // 修改路徑
+    image: '/img/113/113AB8005陽彩柔.JPG', // 修改路徑
     email: 't113ab8005@ntut.org.tw',
     expertise: ['資料處理', 'C/C++'],
     description:
@@ -180,7 +180,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Wu',
     title: '碩二生',
     role: '碩二生',
-    image: '/img/113/113AB8007吳育碩.jpg', // 修改路徑
+    image: '/img/113/113AB8007吳育碩.JPG', // 修改路徑
     email: 't113ab8007@ntut.org.tw',
     expertise: ['前後端'],
     description:
@@ -192,7 +192,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Wu',
     title: '碩二生',
     role: '碩二生',
-    image: '/img/113/113AB8015.jpg', // 修改路徑
+    image: '/img/113/113AB8015.JPG', // 修改路徑
     email: 't113ab8015@ntut.org.tw',
     expertise: ['資料庫'],
     description:
@@ -204,7 +204,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'Wu',
     title: '碩二生',
     role: '碩二生',
-    image: '/img/113/113AB8046.jpg', // 修改路徑
+    image: '/img/113/113AB8046.JPG', // 修改路徑
     email: 't113ab8046@ntut.org.tw',
     expertise: ['python', 'SQL'],
     description:
