@@ -132,7 +132,7 @@ const teamMembers: TeamMember[] = [
     nameEn: 'cheng',
     title: '碩一生',
     role: '碩一生',
-    image: '/img/114/114EP8023_鄭淮源.jpg', // 修改路徑
+    image: '/img/114/114EP8023_鄭淮源.JPG', // 修改路徑
     email: 't114EP8023@ntut.org.tw',
     expertise: ['C++程式設計', '資料結構', '英文'],
     description:
