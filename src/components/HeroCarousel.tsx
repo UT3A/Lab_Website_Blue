@@ -189,7 +189,7 @@ export function HeroCarousel() {
                 className="text-slate-800"
                 style={{
                   fontSize: 'clamp(40px, 6vw, 72px)',
-                  fontWeight: 200,
+                  fontWeight: 800,
                   lineHeight: 1.2,
                   letterSpacing: '-1px',
                 }}
@@ -204,7 +204,7 @@ export function HeroCarousel() {
                 transition={{ delay: 0.4 }}
                 style={{
                   fontSize: '24px',
-                  fontWeight: 300,
+                  fontWeight: 450,
                   color: 'rgba(30, 41, 59, 0.8)',
                   lineHeight: 1.6,
                 }}
@@ -219,7 +219,7 @@ export function HeroCarousel() {
                 transition={{ delay: 0.5 }}
                 style={{
                   fontSize: '15px',
-                  fontWeight: 300,
+                  fontWeight: 400,
                   color: 'rgba(51, 65, 85, 0.8)',
                   lineHeight: 1.8,
                   maxWidth: '560px',

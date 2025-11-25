@@ -156,8 +156,8 @@ export function PhilosophySection() {
                 <p
                   style={{
                     fontSize: '15px',
-                    fontWeight: 300,
-                    color: 'rgba(51, 65, 85, 0.8)',
+                    fontWeight: 400,
+                    color: 'rgba(0, 0, 0, 0.8)',
                     lineHeight: 1.8,
                   }}
                 >
@@ -166,8 +166,8 @@ export function PhilosophySection() {
                 <p
                   style={{
                     fontSize: '13px',
-                    fontWeight: 300,
-                    color: 'rgba(100, 116, 139, 0.8)',
+                    fontWeight: 400,
+                    color: 'rgba(0, 0, 0, 0.8)',
                     lineHeight: 1.8,
                   }}
                 >
@@ -176,8 +176,8 @@ export function PhilosophySection() {
                 <p
                   style={{
                     fontSize: '13px',
-                    fontWeight: 300,
-                    color: 'rgba(100, 116, 139, 0.8)',
+                    fontWeight: 400,
+                    color: 'rgba(0, 0, 0, 0.8)',
                     lineHeight: 1.8,
                   }}
                 >
@@ -321,7 +321,7 @@ export function PhilosophySection() {
                   <p
                     style={{
                       fontSize: '13px',
-                      fontWeight: 300,
+                      fontWeight: 600,
                       color: 'rgba(51, 65, 85, 0.8)',
                       lineHeight: 1.7,
                     }}

@@ -120,7 +120,7 @@ export function ActivityGallery() {
               style={{
                 fontSize: 'clamp(48px, 8vw, 96px)',
                 fontWeight: 600,
-                background: 'linear-gradient(135deg, #a855f7 0%, #d946ef 100%)',
+                background: 'linear-gradient(135deg, #14b8a6 0%, #06b6d4 50%, #0ea5e9 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
@@ -133,8 +133,8 @@ export function ActivityGallery() {
             <span
               style={{
                 fontSize: 'clamp(36px, 6vw, 72px)',
-                fontWeight: 500,
-                color: 'rgba(168, 85, 247, 0.8)',
+                fontWeight: 800,
+                color: 'rgba(0, 120, 111, 0.8)',
                 lineHeight: 1,
               }}
             >
