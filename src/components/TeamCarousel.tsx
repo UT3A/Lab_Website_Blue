@@ -122,7 +122,7 @@ const teamMembers: TeamMember[] = [
     role: '碩一生',
     image: '/img/114/114EP8012_賴泓瑋.jpg', // 修改路徑
     email: 't114EP8012@ntut.org.tw',
-    expertise: ['Python', 'Flask框架應用', 'XGBoost', 'Adaboost', '資料結構'],
+    expertise: ['Python', '機器學習', '資料庫'],
     description:
       '我畢業於中科大商經系，對人工智慧與數據分析感興趣。\n大學也做過相關領域之專題，平常的興趣是聽音樂、追劇，烹飪、烘培。是個想聊天但不敢先開口的I人。',
   },
