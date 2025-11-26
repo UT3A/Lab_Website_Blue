@@ -235,24 +235,7 @@ export function HeroCarousel() {
                 transition={{ delay: 0.6 }}
                 className="pt-4"
               >
-                <motion.button
-                  className="group relative px-10 py-4 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-md overflow-hidden shadow-lg hover:shadow-xl"
-                  style={{
-                    fontSize: '14px',
-                    fontWeight: 500,
-                    letterSpacing: '0.5px',
-                  }}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <span className="relative z-10">進入網站</span>
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-to-r from-teal-600 to-cyan-700"
-                    initial={{ x: '-100%', opacity: 0.8 }}
-                    whileHover={{ x: 0 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                </motion.button>
+                
               </motion.div>
             </motion.div>
           </AnimatePresence>
