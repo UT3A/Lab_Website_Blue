@@ -205,7 +205,7 @@ export function HeroCarousel() {
                 style={{
                   fontSize: '24px',
                   fontWeight: 450,
-                  color: 'rgba(30, 41, 59, 0.8)',
+                  color: 'rgba(0, 0, 0, 1)',
                   lineHeight: 1.6,
                 }}
               >
@@ -220,7 +220,7 @@ export function HeroCarousel() {
                 style={{
                   fontSize: '20px',
                   fontWeight: 400,
-                  color: 'rgba(51, 65, 85, 0.8)',
+                  color: 'rgba(0, 0, 0, 1)',
                   lineHeight: 1.8,
                   maxWidth: '560px',
                 }}

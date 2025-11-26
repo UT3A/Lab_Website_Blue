@@ -78,7 +78,7 @@ export function PhilosophySection() {
                   fontSize: '14px',
                   fontWeight: 300,
                   fontStyle: 'italic',
-                  color: 'rgba(15, 118, 110, 0.7)',
+                  color: 'rgba(15, 118, 109, 1)',
                   letterSpacing: '0.05em',
                 }}
               >
@@ -88,10 +88,10 @@ export function PhilosophySection() {
               {/* Chinese Title */}
               <div className="space-y-2">
                 <h2
-                  className="text-slate-700"
+                  className="text-slate-950"
                   style={{
                     fontSize: 'clamp(24px, 3.5vw, 36px)',
-                    fontWeight: 300,
+                    fontWeight: 500,
                     letterSpacing: '0.05em',
                     lineHeight: 1.4,
                   }}
@@ -139,7 +139,7 @@ export function PhilosophySection() {
                 style={{
                   fontSize: '22px',
                   fontWeight: 700,
-                  color: 'rgba(30, 41, 59, 0.9)',
+                  color: 'rgba(0, 0, 0, 1)',
                   lineHeight: 1.6,
                 }}
               >
@@ -156,8 +156,8 @@ export function PhilosophySection() {
                 <p
                   style={{
                     fontSize: '20px',
-                    fontWeight: 400,
-                    color: 'rgba(0, 0, 0, 0.8)',
+                    fontWeight: 500,
+                    color: 'rgba(0, 0, 0, 1)',
                     lineHeight: 1.8,
                   }}
                 >
@@ -166,8 +166,8 @@ export function PhilosophySection() {
                 <p
                   style={{
                     fontSize: '20px',
-                    fontWeight: 400,
-                    color: 'rgba(0, 0, 0, 0.8)',
+                    fontWeight: 500,
+                    color: 'rgba(0, 0, 0, 1)',
                     lineHeight: 1.8,
                   }}
                 >
@@ -176,8 +176,8 @@ export function PhilosophySection() {
                 <p
                   style={{
                     fontSize: '20px',
-                    fontWeight: 400,
-                    color: 'rgba(0, 0, 0, 0.8)',
+                    fontWeight: 500,
+                    color: 'rgba(0, 0, 0, 1)',
                     lineHeight: 1.8,
                   }}
                 >

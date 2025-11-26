@@ -472,8 +472,8 @@ export function TeamCarousel() {
               <p
                 style={{
                   fontSize: '18px',
-                  fontWeight: 500,
-                  color: 'rgba(1, 0, 0, 0.8)',
+                  fontWeight: 600,
+                  color: 'rgba(1, 0, 0, 1)',
                   lineHeight: 1.8,
                 }}
               >
@@ -665,7 +665,7 @@ export function TeamCarousel() {
                       <p
                         style={{
                           fontSize: '13px',
-                          color: 'rgba(0, 0, 0, 0.6)',
+                          color: 'rgba(0, 0, 0, 1)',
                           lineHeight: 1.7,
                           fontWeight: 600,
                         }}
@@ -811,6 +811,7 @@ export function TeamCarousel() {
                               color: 'rgba(0, 0, 0, 1)',
                               lineHeight: 1.6,
                               overflow: 'hidden',
+                              fontWeight: 500,
                               display: '-webkit-box',
                               WebkitLineClamp: 2,
                               WebkitBoxOrient: 'vertical',
