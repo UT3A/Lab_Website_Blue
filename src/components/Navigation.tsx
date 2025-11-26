@@ -63,8 +63,9 @@ export function Navigation() {
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 * index }}
-                  className="px-3 xl:px-4 py-2 text-sm font-semibold text-slate-600 hover:text-teal-600 transition-all duration-300 relative group whitespace-nowrap"
-                >
+                  className="px-3 xl:px-4 py-2 font-semibold text-slate-600 hover:text-teal-600 transition-all duration-300 relative group whitespace-nowrap"
+                  style={{ fontSize: '20px' }}  // 強制設定字體大小為 30px
+                  >
                   {item.name}
                   <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-0 h-[2px] bg-gradient-to-r from-teal-500 to-cyan-500 transition-all duration-300 group-hover:w-3/4 rounded-full" />
                 </motion.a>

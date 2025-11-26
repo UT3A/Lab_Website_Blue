@@ -137,8 +137,8 @@ export function PhilosophySection() {
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.4 }}
                 style={{
-                  fontSize: '20px',
-                  fontWeight: 400,
+                  fontSize: '22px',
+                  fontWeight: 700,
                   color: 'rgba(30, 41, 59, 0.9)',
                   lineHeight: 1.6,
                 }}
@@ -155,7 +155,7 @@ export function PhilosophySection() {
               >
                 <p
                   style={{
-                    fontSize: '15px',
+                    fontSize: '20px',
                     fontWeight: 400,
                     color: 'rgba(0, 0, 0, 0.8)',
                     lineHeight: 1.8,
@@ -165,7 +165,7 @@ export function PhilosophySection() {
                 </p>
                 <p
                   style={{
-                    fontSize: '13px',
+                    fontSize: '20px',
                     fontWeight: 400,
                     color: 'rgba(0, 0, 0, 0.8)',
                     lineHeight: 1.8,
@@ -175,7 +175,7 @@ export function PhilosophySection() {
                 </p>
                 <p
                   style={{
-                    fontSize: '13px',
+                    fontSize: '20px',
                     fontWeight: 400,
                     color: 'rgba(0, 0, 0, 0.8)',
                     lineHeight: 1.8,

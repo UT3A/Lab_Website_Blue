@@ -69,16 +69,16 @@ export function Footer() {
               <li className="flex items-start gap-3 text-slate-600 text-sm group">
                 <Mail className="w-4 h-4 mt-0.5 text-slate-500 group-hover:text-teal-600 transition-colors" />
                 <a href="mailto:faim@example.edu.tw" className="hover:text-teal-600 transition-colors">
-                  faim@example.edu.tw
+                  jessicacheng@ntut.edu.tw
                 </a>
               </li>
               <li className="flex items-start gap-3 text-slate-600 text-sm group">
                 <Phone className="w-4 h-4 mt-0.5 text-slate-500 group-hover:text-teal-600 transition-colors" />
-                <span>+886-2-1234-5678</span>
+                <span>(02) 2771-2171 #6720</span>
               </li>
               <li className="flex items-start gap-3 text-slate-600 text-sm group">
                 <MapPin className="w-4 h-4 mt-0.5 text-slate-500 group-hover:text-teal-600 transition-colors" />
-                <span>台灣台北市大學路123號</span>
+                <span>臺北市大安區忠孝東路三段1號 宏裕科技大樓B3F B325-1 金融科技與智慧行銷實驗室</span>
               </li>
             </ul>
           </div>

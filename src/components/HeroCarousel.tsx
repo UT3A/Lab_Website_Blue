@@ -174,6 +174,7 @@ export function HeroCarousel() {
                     background: 'rgba(20, 184, 166, 0.1)',
                     border: '1px solid rgba(20, 184, 166, 0.3)',
                     color: 'rgba(15, 118, 110, 1)',
+                    fontSize: '14px',
                   }}
                 >
                   {currentSlide.tag}
@@ -217,7 +218,7 @@ export function HeroCarousel() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
                 style={{
-                  fontSize: '15px',
+                  fontSize: '20px',
                   fontWeight: 400,
                   color: 'rgba(51, 65, 85, 0.8)',
                   lineHeight: 1.8,
