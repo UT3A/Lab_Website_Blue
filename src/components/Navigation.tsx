@@ -44,9 +44,10 @@ export function Navigation() {
               transition={{ delay: 0.2 }}
               className="flex items-center gap-2 lg:gap-3 group flex-shrink-0"
             >
-              <div className="w-10 h-10 lg:w-11 lg:h-11 bg-gradient-to-br from-teal-500/15 to-cyan-600/15 rounded-xl border border-teal-500/30 flex items-center justify-center backdrop-blur-sm group-hover:border-teal-500/50 transition-all duration-300">
-                <span className="text-base lg:text-lg font-semibold bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">F</span>
+              <div className="w-20 h-10">
+              <img src="img/faim-logo.png" alt="Logo" className="w-full h-full object-contain" />
               </div>
+
               <div className="flex flex-col">
                 <span className="text-sm font-semibold lg:text-base text-slate-800 tracking-tight font-medium whitespace-nowrap">FAIM Lab</span>
                 <span className="text-xs text-slate-500 tracking-wider whitespace-nowrap">
