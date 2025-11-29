@@ -21,8 +21,8 @@ export function Footer() {
           {/* About */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 bg-gradient-to-br from-teal-500/15 to-cyan-600/15 rounded-xl border border-teal-500/30 flex items-center justify-center">
-                <span className="text-lg font-semibold bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">F</span>
+              <div className="w-20 h-10">
+                <img src="img/faim-logo.png" alt="Logo" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="text-slate-800 font-medium">FAIM Lab</span>
@@ -69,7 +69,7 @@ export function Footer() {
               <li className="flex items-start gap-3 text-slate-600 text-sm group">
                 <Mail className="w-4 h-4 mt-0.5 text-slate-500 group-hover:text-teal-600 transition-colors" />
                 <a href="mailto:faim@example.edu.tw" className="hover:text-teal-600 transition-colors">
-                  jessicacheng@ntut.edu.tw
+                  lijen.cheng@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3 text-slate-600 text-sm group">

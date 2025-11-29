@@ -22,9 +22,8 @@ const professor: TeamMember = {
   nameEn: 'Prof. Cheng',
   title: '實驗室主持人',
   role: 'Principal Investigator',
-  // 修改路徑：拿掉 src/public，加上斜線 /
   image: '/img/teacher.jpg',
-  email: 'jessicacheng@ntut.edu.tw',
+  email: 'lijen.cheng@gmail.com',
   expertise: ['機器學習與數據分析', '數位金融', '智慧行銷', '社群運算', '企業智慧'],
   description: '專注於人工智慧技術應用於財務或是行銷與管理領域,成立目的訓練學生成為資料科學家。',
 };
@@ -436,9 +435,8 @@ export function TeamCarousel() {
               transition={{ duration: 0.6 }}
             >
               <div className="flex items-center gap-4">
-                <div className="w-12 h-px bg-gradient-to-r from-cyan-500 to-transparent" />
                 <span
-                  className="text-cyan-700 tracking-widest"
+                  className="tracking-widest"
                   style={{ fontSize: '11px', letterSpacing: '0.2em' }}
                 >
                   OUR TEAM
@@ -460,7 +458,7 @@ export function TeamCarousel() {
                   letterSpacing: '-1px',
                   fontWeight: 600,
                   background:
-                    'linear-gradient(135deg, #14b8a6 0%, #06b6d4 50%, #0ea5e9 100%)',
+                    'linear-gradient(135deg, #001614ff 0%, #000000ff 50%, #000000ff 100%)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text',
@@ -491,7 +489,7 @@ export function TeamCarousel() {
             >
               {[
                 { number: '1', label: '教授' },
-                { number: '1', label: '博士生' },
+                { number: '3', label: '博士生' },
                 { number: '10+', label: '碩士生' },
               ].map((stat, index) => (
                 <div key={index} className="space-y-2">

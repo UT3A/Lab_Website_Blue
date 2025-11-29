@@ -82,7 +82,7 @@ export function PhilosophySection() {
                   letterSpacing: '0.05em',
                 }}
               >
-                FAIM de connaissance.
+                
               </motion.p>
 
               {/* Chinese Title */}
@@ -107,7 +107,8 @@ export function PhilosophySection() {
                     style={{
                       fontSize: 'clamp(42px, 5.5vw, 64px)',
                       fontWeight: 600,
-                      background: 'linear-gradient(135deg, #14b8a6 0%, #06b6d4 50%, #0ea5e9 100%)',
+                      /*background: 'linear-gradient(135deg, #14b8a6 0%, #06b6d4 50%, #0ea5e9 100%)',*/
+                      background: 'linear-gradient(135deg, #000000ff 0%, #000000ff 50%, #000000ff 100%)',
                       WebkitBackgroundClip: 'text',
                       WebkitTextFillColor: 'transparent',
                       backgroundClip: 'text',
@@ -117,17 +118,7 @@ export function PhilosophySection() {
                     核心理念
                   </h3>
                   
-                  {/* Teal Underline */}
-                  <motion.div
-                    initial={{ scaleX: 0 }}
-                    animate={isInView ? { scaleX: 1 } : {}}
-                    transition={{ duration: 0.8, delay: 0.3 }}
-                    className="h-1 mt-2 origin-left"
-                    style={{
-                      background: 'linear-gradient(90deg, #14b8a6 0%, #06b6d4 100%)',
-                      borderRadius: '2px',
-                    }}
-                  />
+                  
                 </div>
               </div>
 
@@ -138,7 +129,7 @@ export function PhilosophySection() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 style={{
                   fontSize: '22px',
-                  fontWeight: 700,
+                  fontWeight: 500,
                   color: 'rgba(0, 0, 0, 1)',
                   lineHeight: 1.6,
                 }}
@@ -343,8 +334,7 @@ export function PhilosophySection() {
           </div>
         </div>
 
-        {/* Bottom Decorative Line */}
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-teal-500/30 to-transparent" />
+        
       </div>
     </section>
   );

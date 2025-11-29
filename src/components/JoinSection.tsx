@@ -63,7 +63,7 @@ export function JoinSection() {
               fontSize: '14px',
               fontWeight: 300,
               fontStyle: 'italic',
-              color: 'rgba(15, 118, 110, 0.7)',
+              color: 'rgba(0, 0, 0, 1)',
               letterSpacing: '0.05em',
             }}
           >
@@ -80,7 +80,7 @@ export function JoinSection() {
             style={{
               fontSize: 'clamp(48px, 6vw, 72px)',
               fontWeight: 600,
-              background: 'linear-gradient(135deg, #14b8a6 0%, #06b6d4 50%, #0ea5e9 100%)',
+              background: 'linear-gradient(135deg, #000000ff 0%, #000000ff 50%, #000000ff 100%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
@@ -97,7 +97,7 @@ export function JoinSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="h-1 w-32 mx-auto origin-center"
             style={{
-              background: 'linear-gradient(90deg, #14b8a6 0%, #06b6d4 100%)',
+              background: 'linear-gradient(90deg, #000000ff 0%, #000000ff 100%)',
               borderRadius: '2px',
             }}
           />
@@ -139,7 +139,7 @@ export function JoinSection() {
                   className="text-slate-800 mb-4"
                   style={{
                     fontSize: '24px',
-                    fontWeight: 500,
+                    fontWeight: 700,
                   }}
                 >
                   實驗室地點
@@ -150,8 +150,8 @@ export function JoinSection() {
                   <p
                     style={{
                       fontSize: '15px',
-                      fontWeight: 400,
-                      color: 'rgba(30, 41, 59, 0.9)',
+                      fontWeight: 500,
+                      color: 'rgba(0, 3, 7, 1)',
                       lineHeight: 1.8,
                     }}
                   >
@@ -160,8 +160,8 @@ export function JoinSection() {
                   <p
                     style={{
                       fontSize: '14px',
-                      fontWeight: 300,
-                      color: 'rgba(51, 65, 85, 0.8)',
+                      fontWeight: 400,
+                      color: 'rgba(0, 0, 0, 1)',
                       lineHeight: 1.8,
                       paddingLeft: '1.5rem',
                     }}
@@ -215,7 +215,7 @@ export function JoinSection() {
                   className="text-slate-800 mb-4"
                   style={{
                     fontSize: '24px',
-                    fontWeight: 500,
+                    fontWeight: 700,
                   }}
                 >
                   實驗室分機
@@ -226,7 +226,7 @@ export function JoinSection() {
                   style={{
                     fontSize: '15px',
                     fontWeight: 400,
-                    color: 'rgba(30, 41, 59, 0.9)',
+                    color: 'rgba(0, 0, 0, 1)',
                     lineHeight: 1.8,
                   }}
                 >
@@ -277,7 +277,7 @@ export function JoinSection() {
                 className="text-slate-800 mb-6"
                 style={{
                   fontSize: '24px',
-                  fontWeight: 500,
+                  fontWeight: 700,
                 }}
               >
                 LAB設備與資源
@@ -302,8 +302,8 @@ export function JoinSection() {
                     <span
                       style={{
                         fontSize: '12px',
-                        fontWeight: 300,
-                        color: 'rgba(51, 65, 85, 0.8)',
+                        fontWeight: 400,
+                        color: 'rgba(0, 0, 0, 1)',
                       }}
                     >
                       {equipment.name}
@@ -323,8 +323,8 @@ export function JoinSection() {
                   className="text-center"
                   style={{
                     fontSize: '14px',
-                    fontWeight: 300,
-                    color: 'rgba(100, 116, 139, 0.8)',
+                    fontWeight: 400,
+                    color: 'rgba(0, 0, 0, 0.8)',
                     lineHeight: 1.8,
                   }}
                 >

@@ -18,7 +18,7 @@ const activities: Activity[] = [
   {
     id: 1,
     title: '期末聚餐',
-    participants: 189,
+    participants: 8,
     rating: 4.8,
     duration: '2023/1/17',
     image: '/img/活動照片/act1.png',
@@ -27,7 +27,7 @@ const activities: Activity[] = [
   {
     id: 2,
     title: '象山遊',
-    participants: 27,
+    participants: 5,
     rating: 5.0,
     duration: '2022/12/22',
     image: '/img/活動照片/act2.png',
@@ -36,17 +36,16 @@ const activities: Activity[] = [
   {
     id: 3,
     title: '慶生趴',
-    participants: 62,
+    participants: 10,
     duration: '2022/10/14',
     image: '/img/活動照片/act3.png',
     description: ' ',
   },
   {
     id: 4,
-    title: '學會基礎醫療觀念',
-    participants: 58,
-    rating: 4.7,
-    duration: '3小時',
+    title: '照片放這邊', /*學長姐!照片放這邊再麻煩了!! */
+    participants: 58,/*參加人數 */
+    duration: '2025/12/25',/*日期 */
     image: 'https://images.unsplash.com/photo-1758270705290-62b6294dd044?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncm91cCUyMHN0dWR5JTIwbGVhcm5pbmd8ZW58MXx8fHwxNzYwODc4MDA5fDA&ixlib=rb-4.1.0&q=80&w=1080',
     description: ' ',
   },
@@ -119,7 +118,7 @@ export function ActivityGallery() {
               style={{
                 fontSize: 'clamp(48px, 8vw, 96px)',
                 fontWeight: 600,
-                background: 'linear-gradient(135deg, #14b8a6 0%, #06b6d4 50%, #0ea5e9 100%)',
+                background: 'linear-gradient(135deg, #000000ff 0%, #000000ff 50%, #000000ff 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
@@ -133,7 +132,7 @@ export function ActivityGallery() {
               style={{
                 fontSize: 'clamp(36px, 6vw, 72px)',
                 fontWeight: 800,
-                color: 'rgba(0, 120, 111, 0.8)',
+                color: 'rgba(0, 0, 0, 1)',
                 lineHeight: 1,
               }}
             >
@@ -186,11 +185,11 @@ export function ActivityGallery() {
                       <div
                         className="p-1.5 rounded-md"
                         style={{
-                          background: 'rgba(168, 85, 247, 0.15)',
-                          border: '1px solid rgba(168, 85, 247, 0.25)',
+                          background: 'rgba(0, 120, 111, 0.15)',
+                          border: '1px solid rgba(0, 120, 111, 0.25)',
                         }}
                       >
-                        <Users className="w-3 h-3 text-purple-400" />
+                        <Users className="w-3 h-3 " />
                       </div>
                       <span style={{ color: 'rgba(0, 0, 0, 0.6)', fontSize: '11px' }}>
                         {activity.participants}已參加

@@ -20,7 +20,7 @@ const slides: CarouselSlide[] = [
     subTitle: 'Deep Learning',
     description: '隨著硬體技術快速的進步，更大規模更複雜的運算也隨之發展。深度學習的應用大量出現在各議題上：行為預測、異常檢測、影像辨識處理、文本理解等…我們的訓練不只是使用線上整理乾淨的資料集，更多的是使用產學合作的真實資料，確保我們的模型經得起"真實世界的考驗"',
     tag: '企業應用',
-    mainImage: 'https://images.unsplash.com/photo-1760493828288-d2dbb70d18c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2glMjBzY2llbmNlfGVufDF8fHx8MTc2MDcwNDk4OHww&ixlib=rb-4.1.0&q=80&w=1080',
+    mainImage: '/img/hero/深度學習.png',
     cardImages: [
       'https://images.unsplash.com/photo-1732881112419-ca9ce3b852d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaWNyb3Njb3BlJTIwbmFub3RlY2hub2xvZ3l8ZW58MXx8fHwxNzYwNzgxNTc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
       'https://images.unsplash.com/photo-1652212976547-16d7e2841b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3klMjBibHVlfGVufDF8fHx8MTc2MDc1ODU0OXww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -33,7 +33,7 @@ const slides: CarouselSlide[] = [
     subTitle: 'Fintech',
     description: '金融服務無所不在，已經嵌入各種生活場景。除了提供更多充滿便利性的點子外，這樣的大量使用也累積了許多的使用行為資料。這些資料更是值得我們深入研究的素材。',
     tag: '金融科技',
-    mainImage: 'https://images.unsplash.com/photo-1732881112419-ca9ce3b852d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaWNyb3Njb3BlJTIwbmFub3RlY2hub2xvZ3l8ZW58MXx8fHwxNzYwNzgxNTc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    mainImage: '/img/hero/數位金融.png',
     cardImages: [
       'https://images.unsplash.com/photo-1652212976547-16d7e2841b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3klMjBibHVlfGVufDF8fHx8MTc2MDc1ODU0OXww&ixlib=rb-4.1.0&q=80&w=1080',
       'https://images.unsplash.com/photo-1558181445-eca4774b2a37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMG1vZGVybiUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjA2OTU3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -46,7 +46,7 @@ const slides: CarouselSlide[] = [
     subTitle: 'NLP - Natural Language Processing',
     description: '文字是人類溝通表達的媒介，文字蘊含了豐富的資訊、意思表達、思想、情感。想要讓電腦試圖理解人類？NLP自然語言處理技術就是這一切的基礎。',
     tag: '自然語言處理',
-    mainImage: 'https://images.unsplash.com/photo-1652212976547-16d7e2841b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3klMjBibHVlfGVufDF8fHx8MTc2MDc1ODU0OXww&ixlib=rb-4.1.0&q=80&w=1080',
+    mainImage: '/img/hero/文字的力量.png',
     cardImages: [
       'https://images.unsplash.com/photo-1760493828288-d2dbb70d18c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2glMjBzY2llbmNlfGVufDF8fHx8MTc2MDcwNDk4OHww&ixlib=rb-4.1.0&q=80&w=1080',
       'https://images.unsplash.com/photo-1732881112419-ca9ce3b852d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaWNyb3Njb3BlJTIwbmFub3RlY2hub2xvZ3l8ZW58MXx8fHwxNzYwNzgxNTc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -59,7 +59,7 @@ const slides: CarouselSlide[] = [
     subTitle: 'Public Opinion Analysis',
     description: '輿情是指大眾的情緒、觀念、態度等不同元素形成的反映社會共同意見的意見集合體。輿情分析可以更加理解大眾對於特定議題的看法。處理謠言、部分事實、虛假訊息的散佈等，意圖煽動操弄的行為也是重要的研究方向。',
     tag: '社會分析',
-    mainImage: 'https://images.unsplash.com/photo-1558181445-eca4774b2a37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMG1vZGVybiUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjA2OTU3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    mainImage: '/img/hero/輿情分析.png',
     cardImages: [
       'https://images.unsplash.com/photo-1652212976547-16d7e2841b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3klMjBibHVlfGVufDF8fHx8MTc2MDc1ODU0OXww&ixlib=rb-4.1.0&q=80&w=1080',
       'https://images.unsplash.com/photo-1760493828288-d2dbb70d18c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2glMjBzY2llbmNlfGVufDF8fHx8MTc2MDcwNDk4OHww&ixlib=rb-4.1.0&q=80&w=1080',

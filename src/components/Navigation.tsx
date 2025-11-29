@@ -48,10 +48,9 @@ export function Navigation() {
               <img src="img/faim-logo.png" alt="Logo" className="w-full h-full object-contain" />
               </div>
 
-              <div className="flex flex-col">
-                <span className="text-sm font-semibold lg:text-base text-slate-800 tracking-tight font-medium whitespace-nowrap">FAIM Lab</span>
-                <span className="text-xs text-slate-500 tracking-wider whitespace-nowrap">
-                  金融科技與智慧行銷實驗室
+              <div className="flex" style={{ fontSize: '25px' }}>
+                <span className=" text-slate-800 tracking-tight whitespace-nowrap">
+                金融科技與智慧行銷實驗室
                 </span>
               </div>
             </motion.a>
