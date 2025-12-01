@@ -187,13 +187,13 @@ function ResearchTable({ title, data, delay = 0 }: TableProps) {
           borderBottom: '1px solid #e5e7eb',
         }}
       >
-        <div className="text-[#10B7A5] font-medium" style={{ fontSize: '15px' }}>
+        <div className="text-[#10B7A5]" style={{ fontSize: '15px', fontWeight: 1000 }}>
           年度
         </div>
-        <div className="text-[#10B7A5] font-medium" style={{ fontSize: '15px' }}>
+        <div className="text-[#10B7A5]" style={{ fontSize: '15px', fontWeight: 1000 }}>
           學生
         </div>
-        <div className="text-[#10B7A5] font-medium" style={{ fontSize: '15px' }}>
+        <div className="text-[#10B7A5]" style={{ fontSize: '15px', fontWeight: 1000 }}>
           成果
         </div>
       </div>
@@ -322,13 +322,13 @@ export function ResearchSection() {
                 borderBottom: '1px solid #e5e7eb',
               }}
             >
-              <div className="text-[#10B7A5] font-medium" style={{ fontSize: '15px' }}>
+              <div className="text-[#10B7A5]" style={{ fontSize: '15px', fontWeight: 1000 }}>
                 年度
               </div>
-              <div className="text-[#10B7A5] font-medium" style={{ fontSize: '15px' }}>
+              <div className="text-[#10B7A5]" style={{ fontSize: '15px', fontWeight: 1000 }}>
                 學生
               </div>
-              <div className="text-[#10B7A5] font-medium" style={{ fontSize: '15px' }}>
+              <div className="text-[#10B7A5]" style={{ fontSize: '15px', fontWeight: 1000 }}>
                 研究
               </div>
             </div>
